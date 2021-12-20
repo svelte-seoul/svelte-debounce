@@ -12,11 +12,11 @@ const debounce = (node, config) => {
     }, delay);
   };
 
-  document.addEventListener('input', handleChange);
+  node.addEventListener('input', handleChange);
 
   return {
     destroy() {
-      document.removeEventListener("input", handleChange);
+      node.removeEventListener("input", handleChange);
     },
   };
 };
