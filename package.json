@@ -1,6 +1,6 @@
 {
   "name": "svelte-debounce",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easy debouncing with Svelte action.",
   "main": "index.js",
   "scripts": {
